@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(9, 0, 33);
+    padding-top: 10%;
+}
+
+#containerLogin{
+    margin: auto;
+margin-top: -50px;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    width: 550px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    width: 550px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    width: 850px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    width: 850px;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    width: 950px;
+}
+}
+
+#areaLogin{
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    background-color: #210076;
+
+
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+        width: 550px;
+    }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+        width: 550px;
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        width: 850px;
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        width: 850px;
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        width: 950px;
+    }
+}
+
+#imgLogin{
+width: 100px;
+margin: auto;
+}
+
+#formLogin{
+background-color: #39288e;
+border-radius: 6px;
+padding: 6px;
+}
+
+#formLogin h3{
+    margin-left:38%;
+    color: #0bd400;
+    font-family:sans-serif;
+    font-size: 36px;
+}
+
+#formLogin a{
+    color: white;
+    font-size: 12px;
+}
+
+#formLogin input{
+    height: 12px;
+    margin-bottom: 8px;
+}
+
+#btnSubmit{
+    width: 80%;
+    margin-left:11% ;
+    margin-top: 20px;
+    background-color: #0bd400;
+    color: white;
+}
+
+
+#bordaUsu{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
